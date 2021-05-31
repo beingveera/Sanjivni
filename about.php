@@ -107,180 +107,148 @@
             </div>
             <!-- About End -->
 
+           
+            
 
-            <!-- Story Start -->
-            <div class="story">
+             <!-- Pricing Plan Start -->
+            <div class="price">
                 <div class="container">
                     <div class="section-header">
-                        <p>Company Story</p>
-                        <h2>Learn About Our Journey</h2>
+                        <h2>Symptoms</h2>
+                        <p>These are the symptoms of Corona</p>
                     </div>
                     <div class="row">
-                        <div class="col-lg-12">
-                            <div class="story-container">
-                                <div class="story-end">
-                                    <p>Now</p>
-                                </div>
-                                <div class="story-continue">
-
-                                    <div class="row story-right">
-                                        <div class="col-md-6">
-                                            <p class="story-date">
-                                                01 Dec 2020
-                                            </p>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="story-box">
-                                                <div class="story-text">
-                                                    <h3>Lorem ipsum dolor</h3>
-                                                    <p>
-                                                        Lorem ipsum dolor sit amet elit. Proin euismod nibh in convallis. Nam vitae posuere tortor, et imperdiet nunc. Praesent nisl nulla, fringilla eu ornare, dignissim vitae ipsum.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
+                        <div class="col-md-4">
+                            <div class="price-item">
+                                <div class="price-header">
+                                    <div class="price-icon">
+                                        <i class="fa fa-hospital"></i>
                                     </div>
-
-                                    <div class="row story-left">
-                                        <div class="col-md-6 d-md-none d-block">
-                                            <p class="story-date">
-                                                01 Jun 2020
-                                            </p>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="story-box">
-                                                <div class="story-text">
-                                                    <h3>Lorem ipsum dolor</h3>
-                                                    <p>
-                                                        Lorem ipsum dolor sit amet elit. Proin euismod nibh in convallis. Nam vitae posuere tortor, et imperdiet nunc. Praesent nisl nulla, fringilla eu ornare, dignissim vitae ipsum.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 d-md-block d-none">
-                                            <p class="story-date">
-                                                01 Jun 2020
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                    <div class="row">
-                                        <div class="col-12">
-                                            <div class="story-year">
-                                                <p>2020</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="row story-right">
-                                        <div class="col-md-6">
-                                            <p class="story-date">
-                                                01 Dec 2019
-                                            </p>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="story-box">
-                                                <div class="story-text">
-                                                    <h3>Lorem ipsum dolor</h3>
-                                                    <p>
-                                                        Lorem ipsum dolor sit amet elit. Proin euismod nibh in convallis. Nam vitae posuere tortor, et imperdiet nunc. Praesent nisl nulla, fringilla eu ornare, dignissim vitae ipsum.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="row story-left">
-                                        <div class="col-md-6 d-md-none d-block">
-                                            <p class="story-date">
-                                                01 Jun  2019
-                                            </p>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="story-box">
-                                                <div class="story-text">
-                                                    <h3>Lorem ipsum dolor</h3>
-                                                    <p>
-                                                        Lorem ipsum dolor sit amet elit. Proin euismod nibh in convallis. Nam vitae posuere tortor, et imperdiet nunc. Praesent nisl nulla, fringilla eu ornare, dignissim vitae ipsum.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 d-md-block d-none">
-                                            <p class="story-date">
-                                                01 Jun  2019
-                                            </p>
-                                        </div>
-                                    </div>
-                                    
-                                    <div class="row">
-                                        <div class="col-12">
-                                            <div class="story-year">
-                                                <p>2019</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="row story-right">
-                                        <div class="col-md-6">
-                                            <p class="story-date">
-                                                01 Dec 2018
-                                            </p>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="story-box">
-                                                <div class="story-text">
-                                                    <h3>Lorem ipsum dolor</h3>
-                                                    <p>
-                                                        Lorem ipsum dolor sit amet elit. Proin euismod nibh in convallis. Nam vitae posuere tortor, et imperdiet nunc. Praesent nisl nulla, fringilla eu ornare, dignissim vitae ipsum.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="row story-left">
-                                        <div class="col-md-6 d-md-none d-block">
-                                            <p class="story-date">
-                                                01 Jun 2018
-                                            </p>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="story-box">
-                                                <div class="story-text">
-                                                    <h3>Lorem ipsum dolor</h3>
-                                                    <p>
-                                                        Lorem ipsum dolor sit amet elit. Proin euismod nibh in convallis. Nam vitae posuere tortor, et imperdiet nunc. Praesent nisl nulla, fringilla eu ornare, dignissim vitae ipsum.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 d-md-block d-none">
-                                            <p class="story-date">
-                                                01 Jun 2018
-                                            </p>
-                                        </div>
+                                    <div class="price-title">
+                                        <h2>Common Symptoms</h2>
                                     </div>
                                 </div>
-                                <div class="story-start">
-                                    <p>Launch</p>
-                                </div>
-                                <div class="story-launch">
-                                    <div class="story-box">
-                                        <div class="story-text">
-                                            <h3>Launched our company on 01 Jan 2018</h3>
-                                            <p>
-                                                Lorem ipsum dolor sit amet elit. Proin euismod nibh in convallis. Nam vitae posuere tortor, et imperdiet nunc. Praesent nisl nulla, fringilla eu ornare, dignissim vitae ipsum.
-                                            </p>
-                                        </div>
+                                <div class="price-body">
+                                    <div class="price-des">
+                                        <ul>
+                                            <li>Fever</li>
+                                            <li>Dry Cough</li>
+                                            <li>Tiredness</li>
+                                        </ul>
                                     </div>
                                 </div>
+                               
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="price-item featured-item">
+                                <div class="price-header">
+                                    <div class="price-icon">
+                                        <i class="fa fa-hospital"></i>
+                                    </div>
+                                    <div class="price-title">
+                                        <h2> Medium Symptoms </h2>
+                                    </div>
+                                   
+                                </div>
+                                <div class="price-body">
+                                    <div class="price-des">
+                                        <ul>
+                                            <li>Aches &amp; Pains</li>
+                                            <li>Headache</li>
+                                            <li>Loss of Tasete and Smell</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="price-item">
+                                <div class="price-header">
+                                    <div class="price-icon">
+                                        <i class="fa fa-hospital"></i>
+                                    </div>
+                                    <div class="price-title">
+                                        <h2>Serious Symptoms</h2>
+                                    </div>
+                                </div>
+                                <div class="price-body">
+                                    <div class="price-des">
+                                        <ul>
+                                           <li>Shortness of breath</li>
+                                           <li>Loss of Speak</li>
+                                           <li>Chest Pain</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- Story End -->
+            <!-- Pricing Plan End -->
+
+             <div class="testimonial">
+                <div class="container">
+                    <div class="section-header">
+                        <h2>Proctection</h2>
+                        <p>Protect from covid if u are covid positive</p>
+                    </div>
+                    <div class="owl-carousel testimonials-carousel">
+                        <div class="testimonial-item">
+                            <div class="testimonial-img">
+                                <img src="img/web1.jpg" alt="">
+                            </div>
+                            <div class="testimonial-content">
+                                <p>
+                                   If you are getting the symptoms of corona then,maintance distance from the other person and take precautions.
+                                </p>
+                                <h3>Getting Symptoms</h3>
+                                <h4>1</h4>
+                            </div>
+                        </div>
+                        <div class="testimonial-item">
+                            <div class="testimonial-img">
+                                <img src="img/web3.jpg" alt="">
+                            </div>
+                            <div class="testimonial-content">
+                                <p>
+                                    Wearing your mask properly and wash your hands with soap and take hot food and hot water.Keep Distance from others.
+                                </p>
+                                <h3>Take Precautions</h3>
+                                <h4>2</h4>
+                            </div>
+                        </div>
+                        <div class="testimonial-item">
+                            <div class="testimonial-img">
+                                <img src="img/web2.jpg" alt="">
+                            </div>
+                            <div class="testimonial-content">
+                                <p>
+                                    Go for covid test if you are getting the symptoms of corona, and untill you get the report, use your utilities seprate. 
+                                </p>
+                                <h3>Covid Test</h3>
+                                <h4>3</h4>
+                            </div>
+                        </div>
+                        <div class="testimonial-item">
+                            <div class="testimonial-img">
+                                <img src="img/web4.jpg" alt="">
+                            </div>
+                            <div class="testimonial-content">
+                                <p>
+                                    When you recoverd from the corona, After the 1 Month you should go for covid vaccination and protect yourself. 
+                                </p>
+                                <h3>Vaccination</h3>
+                                <h4>4</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Testimonial End -->
+
 
 
             

@@ -172,6 +172,68 @@ if (isset($_POST['send'])) {
             </div>
             <!-- About End -->
 
+             <!-- Feature Start -->
+            <div class="feature">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="section-header left">
+                                <h2>Covid precaution</h2>
+                                <p>Protect your self from corona using precautions.</p>
+                            </div>
+                            <p>
+                                <ul>To prevent the spread of COVID-19:
+                                <li>Clean your hands often. Use soap and water, or an alcohol-based hand rub.</li>
+                                <li>Maintain a safe distance from anyone who is coughing or sneezing.</li>
+                                <li>Wear a mask when physical distancing is not possible.</li>
+                                <li>Don’t touch your eyes, nose or mouth.</li>
+                                <li>Cover your nose and mouth with your bent elbow or a tissue when you cough or sneeze.</li>
+                                <li>Stay home if you feel unwell.</li>
+                                <li>If you have a fever, cough and difficulty breathing, seek medical attention.</li>
+                            </ul>
+                            </p>
+                            <a class="btn" href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public">Read More</a>
+                        </div>
+                        <div class="col-md-7">
+                            <div class="row align-items-center feature-item">
+                                <div class="col-5">
+                                    <img src="img/feature-1.jpg" alt="Feature">
+                                </div>
+                                <div class="col-7">
+                                    <h3>Wash Your Hands</h3>
+                                    <p>
+                                       Wash your hands often with soap and water for at least 20 seconds, especially after being in a public place, or after blowing your nose, coughing or sneezing.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row align-items-center feature-item">
+                                <div class="col-5">
+                                    <img src="img/feature-2.jpg" alt="Feature">
+                                </div>
+                                <div class="col-7">
+                                    <h3>Wearing Mask Properly</h3>
+                                    <p>
+                                      Wear your mask over your nose and mouth and secure it under your chin.Fit the mask snugly against the sides of your face.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row align-items-center feature-item">
+                                <div class="col-5">
+                                    <img src="img/feature-3.jpg" alt="Feature">
+                                </div>
+                                <div class="col-7">
+                                    <h3>Got Vaccinated</h3>
+                                    <p>
+                                        Vaccination is the administration of a vaccine to help the immune system develop protection from a disease.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Feature End -->
+
 
             <!-- Service Start -->
             <div class="service">
@@ -314,67 +376,7 @@ if (isset($_POST['send'])) {
             <!-- Service End -->
             
             
-            <!-- Feature Start -->
-            <div class="feature">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-5">
-                            <div class="section-header left">
-                                <h2>Covid precaution</h2>
-                                <p>Protect your self from corona using precautions.</p>
-                            </div>
-                            <p>
-                                <ul>To prevent the spread of COVID-19:
-                                <li>Clean your hands often. Use soap and water, or an alcohol-based hand rub.</li>
-                                <li>Maintain a safe distance from anyone who is coughing or sneezing.</li>
-                                <li>Wear a mask when physical distancing is not possible.</li>
-                                <li>Don’t touch your eyes, nose or mouth.</li>
-                                <li>Cover your nose and mouth with your bent elbow or a tissue when you cough or sneeze.</li>
-                                <li>Stay home if you feel unwell.</li>
-                                <li>If you have a fever, cough and difficulty breathing, seek medical attention.</li>
-                            </ul>
-                            </p>
-                            <a class="btn" href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public">Read More</a>
-                        </div>
-                        <div class="col-md-7">
-                            <div class="row align-items-center feature-item">
-                                <div class="col-5">
-                                    <img src="img/feature-1.jpg" alt="Feature">
-                                </div>
-                                <div class="col-7">
-                                    <h3>Wash Your Hands</h3>
-                                    <p>
-                                       Wash your hands often with soap and water for at least 20 seconds, especially after being in a public place, or after blowing your nose, coughing or sneezing.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="row align-items-center feature-item">
-                                <div class="col-5">
-                                    <img src="img/feature-2.jpg" alt="Feature">
-                                </div>
-                                <div class="col-7">
-                                    <h3>Wearing Mask Properly</h3>
-                                    <p>
-                                      Wear your mask over your nose and mouth and secure it under your chin.Fit the mask snugly against the sides of your face.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="row align-items-center feature-item">
-                                <div class="col-5">
-                                    <img src="img/feature-3.jpg" alt="Feature">
-                                </div>
-                                <div class="col-7">
-                                    <h3>Got Vaccinated</h3>
-                                    <p>
-                                        Vaccination is the administration of a vaccine to help the immune system develop protection from a disease.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Feature End -->
+           
             
             
             <!-- Why SanjiVani Start -->

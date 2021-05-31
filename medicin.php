@@ -128,6 +128,169 @@ if (isset($_POST['apply'])) {
             </div><!-- Header End -->
 
 
+                        <!-- Story Start -->
+            <div class="story">
+                <div class="container">
+                    <div class="section-header">
+                        <h2>SanjiVni Approch </h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="story-container">
+                                <div class="story-end">
+                                    <p>SanjiVni</p>
+                                </div>
+                                <div class="story-continue">
+
+                                    <div class="row story-right">
+                                        <div class="col-md-6">
+                                            <p class="story-date">
+                                                Donater
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="story-box">
+                                                <div class="story-text">
+                                                    <h3>When Any Person Donate Medicin</h3>
+                                                    <p>
+                                                      When any want to donate medicin , on our platform when the person will fill the from for donating the medicin.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row story-left">
+                                        <div class="col-md-6 d-md-none d-block">
+            
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="story-box">
+                                                <div class="story-text">
+                                                    <h3>When we get user request</h3>
+                                                    <p>
+                                                        When we get user request for the medicin donate , then we send the request to our worker which is nearest to your address.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 d-md-block d-none">
+                                            <p class="story-date">
+                                                Get Request
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-12">
+                                        </div>
+                                    </div>
+
+                                    <div class="row story-right">
+                                        <div class="col-md-6">
+                                            <p class="story-date">
+                                                Worker
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="story-box">
+                                                <div class="story-text">
+                                                    <h3>Worker will contect to you</h3>
+                                                    <p>
+                                                        Then our worker will contact to you and reached to your home and then check the medicin and collect the medicin from your home.Packed the medicin and proceed for the needy person. 
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row story-left">
+                                        <div class="col-md-6 d-md-none d-block">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="story-box">
+                                                <div class="story-text">
+                                                    <h3>When we get medicin request</h3>
+                                                    <p>
+                                                        when we get any medicin request from needy person and then we check it we can fullfill the reqest of the person or not . if we can  
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 d-md-block d-none">
+                                            <p class="story-date">
+                                                Medicin Request
+                                            </p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <div class="col-12">
+
+                                        </div>
+                                    </div>
+
+                                    <div class="row story-right">
+                                        <div class="col-md-6">
+                                            <p class="story-date">
+                                                Provide Medicin
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="story-box">
+                                                <div class="story-text">
+                                                    <h3>Worker will provide medicin </h3>
+                                                    <p>
+                                                        then our worker which is nearest from your home will contact to you and provide the medicin to you.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row story-left">
+                                        <div class="col-md-6 d-md-none d-block">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="story-box">
+                                                <div class="story-text">
+                                                    <h3>When the needy person get medicin</h3>
+                                                    <p>
+                                                      When the needy person get medicin from the donater , then the donater and reciver both will get notification from the SanjiVni Services.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 d-md-block d-none">
+                                            <p class="story-date">
+                                               Get Notification
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="story-start">
+                                    <p>Complete</p>
+                                </div>
+                                <div class="story-launch">
+                                    <div class="story-box">
+                                        <div class="story-text">
+                                            <h3>Helping more &amp; more People</h3>
+                                            <p>
+                                               If you are having extra or unuseable medicin , so please donate this medicin for the needy person. If you are able to helps so please help them.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Story End -->
+
+
+
+
 
             <!-- Footer Start -->
             <div class="footer">

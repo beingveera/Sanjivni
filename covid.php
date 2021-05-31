@@ -78,45 +78,22 @@
                 </div>
             </div>
             <!-- Header End -->
-
-          <!--  <div class="service">
-                <div class="container">
-                    <div class="section-header">
-                        <h2>Covid Relef Medicin</h2>
-                        <p>In the Situation of Home Quarantine You can prefer these medicin</p>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-3 col-md-6">
-                            <div class="service-item">
-                                <img src="img/medicin4.jpg" alt="Service">
-                                <h3>Vitamin C/ Celin 500</h3>
-                                <p>
-                                    New Celin 500 tablet contains vitamin C as its main component. It is an excellent antioxidant...
-                                </p>
-                                <a class="btn" href="https://pharmeasy.in/online-medicine-order/new-celin-500mg-tablet-25-s-222821">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-
-
       <div class="service">
         <div class="container">
-            <span id="country"></span>
+            <span id="country" style="color:white;"></span>
                 <div class="row">
 
                     <div class="col-lg-3 col-md-6">
                         <div class="service-item" style="height: 200px;">
-                            <h5 style="padding-top: 20px;background: #5460ff;"><b>Total Cases</b></h5><h2><span id="cases"></span></h2>
-                                <a class="btn" href="https://pharmeasy.in/online-medicine-order/doxy-100mg-strip-of-8-tablets-222647">Read More</a>
+                            <h5 style="padding: 10px;background: #5bcfff;"><b>Total Cases</b></h5><h2 style="padding: 40px;"><b><span id="cases"></span></b></h2>
+                                
                             </div>
                         </div>
 
                     <div class="col-lg-3 col-md-6">
                         <div class="service-item" style="height: 200px;">
-                            <h5 style="padding-top: 20px;background: #ffd346;"><b>Active Cases</b></h5><h2><span id="active" style="padding: 20px;"></span></h2>
-                                <a class="btn" href="https://pharmeasy.in/online-medicine-order/doxy-100mg-strip-of-8-tablets-222647">Read More</a>
+                            <h5 style="padding: 10px;background: #ffd346;"><b>Active Cases</b></h5><h2 style="padding: 40px;"><b><span id="active" style="padding: 20px;"></span></b></h2>
+                                
                             </div>
                         </div>
 
@@ -124,16 +101,14 @@
 
                     <div class="col-lg-3 col-md-6">
                         <div class="service-item" style="height: 200px;">
-                            <h5 style="padding-top: 20px;background: #fc6060;"><b>Critical Cases</b></h5><h2><span id="critical"></span></h2>
-                                <a class="btn" href="https://pharmeasy.in/online-medicine-order/doxy-100mg-strip-of-8-tablets-222647">Read More</a>
+                            <h5 style="padding: 10px;background: #fc6060;"><b>Critical Cases</b></h5><h2 style="padding: 40px;"><b><span id="critical"></span></b></h2>
                             </div>
                         </div>
 
                      <div class="col-lg-3 col-md-6">
                         <div class="service-item" style="height: 200px;">
-                            <h5 style="padding-top: 20px;background: #50f6fe;"><b>Total Deaths</b></h5><h2><span id="death"></span></h2>
-                                <a class="btn" href="https://pharmeasy.in/online-medicine-order/doxy-100mg-strip-of-8-tablets-222647">Read More</a>
-                            </div>
+                            <h5 style="padding: 10px;background: #50f6fe;"><b>Total Deaths</b></h5><h2 style="padding: 40px;"><b><span id="death"></span></b></h2>
+                        </div>
                         </div>
 
                     </div>
@@ -141,29 +116,25 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-6">
                         <div class="service-item" style="height: 200px;">
-                            <h5 style="padding-top: 20px;background: #5bff42;"><b>Recovered Cases</b></h5><h2><span id="recovered"></span></h2>
-                                <a class="btn" href="https://pharmeasy.in/online-medicine-order/doxy-100mg-strip-of-8-tablets-222647">Read More</a>
+                            <h5 style="padding: 10px;background: #5bff42;"><b>Recovered Cases</b></h5><h2 style="padding: 40px;"><b><span id="recovered"></span></b></h2>
                             </div>
                         </div>
 
                     <div class="col-lg-3 col-md-6">
                         <div class="service-item" style="height: 200px;">
-                            <h5 style="padding-top: 20px;background: #bc50fe;"><b>Total Testes Done</b></h5><h2><span id="tests"></span></h2>
-                                <a class="btn" href="https://pharmeasy.in/online-medicine-order/doxy-100mg-strip-of-8-tablets-222647">Read More</a>
+                            <h5 style="padding: 10px;background: #bc50fe;"><b>Total Testes Done</b></h5><h2 style="padding: 40px;"><b><span id="tests"></span></b></h2>
                             </div>
                         </div>
 
                     <div class="col-lg-3 col-md-6">
                         <div class="service-item" style="height: 200px;">
-                            <h5 style="padding-top: 20px;background: #f58828;"><b>Critical Cases</b></h5><h2><span id="critical"></span></h2>
-                                <a class="btn" href="https://pharmeasy.in/online-medicine-order/doxy-100mg-strip-of-8-tablets-222647">Read More</a>
+                            <h5 style="padding: 10px;background: #f58828;"><b>One Case Per Person</b></h5><h2 style="padding: 40px;"><b><span id="one"></span></b></h2>
                             </div>
                         </div>
 
                      <div class="col-lg-3 col-md-6">
                         <div class="service-item" style="height: 200px;">
-                            <h5 style="padding-top: 20px;background: #fe39f9;"><b>Total Deaths</b></h5><h2><span id="death"></span></h2>
-                                <a class="btn" href="https://pharmeasy.in/online-medicine-order/doxy-100mg-strip-of-8-tablets-222647">Read More</a>
+                            <h5 style="padding: 10px;background: #fe39f9;"><b>One Death Per Person</b></h5><h2 style="padding: 40px;"><b><span id="per"></span></b></h2>
                             </div>
                         </div>
 
@@ -194,7 +165,20 @@ fetch('https://corona.lmao.ninja/v2/countries/India')
   document.getElementById("death").innerHTML = data.deaths.toLocaleString();
   document.getElementById("recovered").innerHTML = data.recovered.toLocaleString();
   document.getElementById("tests").innerHTML = data.tests.toLocaleString();
-  document.getElementById("flag").src = data.countryInfo.flag;
+  document.getElementById("one").innerHTML= data.oneCasePerPeople.toLocaleString();
+  document.getElementById("per").innerHTML= data.oneDeathPerPeople.toLocaleString();
+});
+
+</script>
+
+<script type="text/javascript">
+fetch('https://disease.sh/v3/covid-19/vaccine/coverage/countries?lastdays=1')
+.then((world) =>{
+    return world.json();
+})
+.then((vaccine) =>{
+    console.log(vaccine[86].timeline)
+     document.getElementById("vaccination").innerHTML = vaccine[86].timeline;
 });
 </script>
 
