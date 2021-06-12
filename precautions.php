@@ -63,13 +63,13 @@
 
                                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                                     <div class="navbar-nav ml-auto">
-                                       <a href="home.php" class="nav-item nav-link">Home</a>
+                                        <a href="home.php" class="nav-item nav-link active">Home</a>
                                         <a href="about.php" class="nav-item nav-link">About</a>
-                                        <a href="precautions.php" class="nav-item nav-link active">Precautions</a>
-                                        <a href="medicin.php" class="nav-item nav-link">Medicin</a>
+                                        <a href="precautions.php" class="nav-item nav-link">Precautions</a>
+                                        <a href="medicin.php" class="nav-item nav-link">Request</a>
+                                        <a href="donate.php" class="nav-item nav-link">Donate</a>
                                         <a href="covid.php" class="nav-item nav-link">Covid Tracker</a>
-                                        <a href="contact.php" class="nav-item nav-link">Contact</a>
-                                        <a href="medicin.php" class="btn">Medicin Request</a>
+                                        <a href="login.php" class="btn">Login</a>
                                         
                                     </div>
                                 </div>

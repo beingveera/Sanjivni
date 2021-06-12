@@ -7,12 +7,10 @@ if (isset($_POST['apply'])) {
     $number=$_POST['mobile'];
     $person=$_POST['person'];
     $date=$_POST['date'];
-    $check =implode(' , ',$_POST['ch']);
+    $check =implode(',',$_POST['ch']);
     $address=$_POST['address'];
     
-
-
-    $insert = "insert into output(`Name`, `Mobile`, `Person`, `Date`, `CheckBox`, `Address`) values('$name','$number','$person','$date','$check','$address')";
+    $insert = "insert into input(`Name`, `Mobile`, `Person`, `Date`, `CheckBox`, `Address`) values('$name','$number','$person','$date','$check','$address')";
     $res=mysqli_query($con,$insert);
 }
 
@@ -26,7 +24,7 @@ if (isset($_POST['apply'])) {
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>SanjiVani - Request</title>
+        <title>SanjiVani - Donate</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Cleaning Company Website Template" name="keywords">
         <meta content="Cleaning Company Website Template" name="description">
@@ -95,6 +93,7 @@ if (isset($_POST['apply'])) {
                                         <a href="donate.php" class="nav-item nav-link">Donate</a>
                                         <a href="covid.php" class="nav-item nav-link">Covid Tracker</a>
                                         <a href="login.php" class="btn">Login</a>
+
                                     </div>
                                 </div>
                             </div>
@@ -107,12 +106,12 @@ if (isset($_POST['apply'])) {
                         </div>
                         <div class="col-md-7">
                             <div class="form">
-                                <h3>Medicine Request</h3>
+                                <h3>Donate Medicin</h3>
                                 <form action="" method="POST">
-                                    <input class="form-control" type="text" placeholder="Your Name" name="name" required="True">
+                                    <input class="form-control" type="text" placeholder="Your Name" name="name" requird="True">
                                     <input class="form-control" type="text" placeholder="Mobile Number" name="mobile" required="True">
                                     <div class="control-group">
-                                        <select class="custom-select" name="person" required="True">
+                                        <select class="custom-select" name="person">
                                             <option selected>Quantity of Medicin</option>
                                             <option value="1">1 Person</option>
                                             <option value="2">2 Person</option>
@@ -185,7 +184,7 @@ if (isset($_POST['apply'])) {
 
                                      <textarea class="form-control" placeholder="Address" name="address" required="True"></textarea>
 
-                                    <button class="btn btn-block" name="apply">Medicine Request</button>
+                                    <button class="btn btn-block" name="apply">Donate Medicine</button>
                                 </form>
                             </div>
                         </div>

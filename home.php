@@ -4,16 +4,12 @@ include 'connection.php';
 
 if (isset($_POST['submit'])){
     $name=$_POST['name'];
+    $email=$_POST['email'];
     $number=$_POST['mobile'];
-    $person=$_POST['person'];
     $address=$_POST['address'];
 
-    $insert="insert into donate(Name, Mobile, Person, Address) values('$name','$number','$person','$address')";
+    $insert="insert into joining(Name, Email, Mobile, Address) values('$name','$email','$number','$address')";
     $res=mysqli_query($con,$insert);
-
-    // echo '<script type="text/javascript">';
-    // echo ' alert("Your Application is Submitted Successfully...")';
-    // echo '</script>';
 }
 ?>
 
@@ -99,10 +95,10 @@ if (isset($_POST['send'])) {
                                         <a href="home.php" class="nav-item nav-link active">Home</a>
                                         <a href="about.php" class="nav-item nav-link">About</a>
                                         <a href="precautions.php" class="nav-item nav-link">Precautions</a>
-                                        <a href="medicin.php" class="nav-item nav-link">Medicin</a>
+                                        <a href="medicin.php" class="nav-item nav-link">Request</a>
+                                        <a href="donate.php" class="nav-item nav-link">Donate</a>
                                         <a href="covid.php" class="nav-item nav-link">Covid Tracker</a>
-                                        <a href="contact.php" class="nav-item nav-link">Contact</a>
-                                        <a href="medicin.php" class="btn">Medicin Request</a>
+                                        <a href="login.php" class="btn">Login</a>
                                         
                                     </div>
                                 </div>
@@ -119,23 +115,13 @@ if (isset($_POST['send'])) {
                         </div>
                         <div class="col-md-5">
                             <div class="form">
-                                <h3>Donate Medicin</h3>
+                                <h3>Join Us</h3>
                                 <form action="" method="POST">
-                                    <input class="form-control" type="text" placeholder="Your Name" name='name'>
-                                    <input class="form-control" type="phone" placeholder="Mobile Number" name="mobile">
-                                    <div class="control-group">
-                                        <select class="custom-select" name="person">
-                                            <option selected>Quantity of Medicin</option>
-                                            <option value="1">1 Person</option>
-                                            <option value="2">2 Person</option>
-                                            <option value="3">3 Person</option>
-                                            <option value="4">4 Person</option>
-                                            <option value="5">5 Person</option>
-                                            <option value="More Then 5 Person">More then 5 Person</option>
-                                        </select>
-                                    </div>
-                                    <textarea class="form-control" placeholder="Address" name='address'></textarea>
-                                    <button class="btn btn-block" name="submit">Donate Medicin</button>
+                                    <input class="form-control" type="text" placeholder="Your Name" name='name' required="true">
+                                    <input class="form-control" type="email" placeholder="Email" name="email" required="true">
+                                    <input class="form-control" type="phone" placeholder="Mobile Number" name="mobile" required="true">
+                                    <textarea class="form-control" placeholder="Address" name='address' required="true"></textarea>
+                                    <button class="btn btn-block" name="submit">Join Now</button>
                                 </form>
                             </div>
                         </div>
@@ -484,11 +470,11 @@ if (isset($_POST['send'])) {
                         <div class="col-md-6 col-lg-3">
                             <div class="footer-link">
                                 <h2>SanjiVani</h2>
-                                <a href="about.html">About Us</a>
-                                <a href="medicin.html">Medcine</a>
-                                <a href="precautions.html">Precautions</a>
-                                <a href="covid.html">Corona Update</a>
-                                <a href="contact.html">Contact Us</a>
+                                <a href="about.php">About Us</a>
+                                <a href="medicin.php">Medcine</a>
+                                <a href="precautions.php">Precautions</a>
+                                <a href="covid.php">Corona Update</a>
+                                <a href="contact.php">Contact Us</a>
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-3">
