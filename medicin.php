@@ -7,7 +7,7 @@ if (isset($_POST['apply'])) {
     $number=$_POST['mobile'];
     $person=$_POST['person'];
     $date=$_POST['date'];
-    $check =implode(' , ',$_POST['ch']);
+    $check =implode(' <br> ',$_POST['ch']);
     $address=$_POST['address'];
     
 

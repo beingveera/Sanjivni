@@ -1,29 +1,34 @@
 <?php
+//error_reporting(0);
+include('connection.php');
 
-include 'connection.php';
+$query="select * from input";;
+$data = mysqli_query($con,$query);
+$total=mysqli_num_rows($data);
+$result=mysqli_fetch_assoc($data);
+?>
 
-if(isset($_POST['login'])){
-	$name=$_POST['name'];
-	$email=$_POST['email'];
-	$otp=$_POST['otp'];
+<?php
+include('connection.php');
 
-		$insert="insert into login(Name,Email,OTP) values('$name','$email','$otp')";
-		$res=mysqli_query($con,$insert);
-
-	
-
-}
-
+$query="select * from output";
+$main = mysqli_query($con,$query);
+$final=mysqli_num_rows($main);
+$output=mysqli_fetch_assoc($main);
 ?>
 
 <!DOCTYPE html>
 <html>
 <head>
-		<title>Sanjivani-Login</title>
+		<title>Sanjuvani-List</title>
         <meta charset="utf-8">
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Cleaning Company Website Template" name="keywords">
         <meta content="Cleaning Company Website Template" name="description">
+
+	    <!-- Bootstrap CSS -->
+	    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
 
         <!-- Favicon -->
         <link href="img/favicon.ico" rel="icon">
@@ -42,7 +47,7 @@ if(isset($_POST['login'])){
 
 </head>
 
-<body style="overflow-y: hidden;">
+<body>
 
 	<div class="wrapper">
             <!-- Header Start -->
@@ -95,30 +100,100 @@ if(isset($_POST['login'])){
                             </div>
                         </div>
                     </div>
-                    
-                    <div class="hero row align-items-center">
-                        <div class="col-md-3">
-                           
-                        </div>
-                        <div class="col-md-7">
-                            <div class="form">
-                                <h3>Login For Sanjivani</h3>
-                                <form action="list.php" method="POST">
-                                    <input class="form-control" type="text" placeholder="Your Name" name="name" required="True">
-                                    <input class="form-control" type="email" placeholder="Email" name="email" required="True">
-                                     <button class="btn btn-block" name="apply" >Send Otp</button><br>
-                                   
-                                    <input class="form-control" type="text" placeholder="Enter OTP" required="True" name='otp'>
-
-                                    <button class="btn btn-block" name="login">Login</button>
-                                </form>
-                            </div>
-                            <br><br><br>
-                        </div>
-                    </div>
                 </div>
             </div>
 
 
+
+            <div class="container" style="align-items: center;justify-content: center;padding-right: 40px;padding-left: 40px;color:red;">
+
+
+            <p>
+  <a class="btn btn-primary" data-bs-toggle="collapse" href="#medicinerequest" role="button" aria-expanded="false" aria-controls="medicinerequest">
+    MediCine Request
+  </a>
+  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#medicinedonate" aria-expanded="false" aria-controls="medicinedonate">
+    Medicine Donate
+  </button>
+</p>
+<div class="collapse" id="medicinerequest">
+  <div class="card card-body">
+  	<h3 style="color:black;text-align:center;text-shadow: 1px 2px 3px ">MediCine Request List</h3>
+   	<table class="table">
+			  <thead>
+			    <tr>
+			      <th scope="col" style="color:#00539C;">Name</th>
+			      <th scope="col" style="color:#00539C;">Mobile No.</th>
+			      <th scope="col" style="color:#00539C;">Person</th>
+			      <th scope="col"  style="color:#00539C;">Date</th>
+			      <th scope="col" style="color:#00539C;">Medicine</th>
+			      <th scope="col" style="color:#00539C;">Address</th>
+			    </tr>
+			  </thead>
+			  <tbody>
+			  <?php
+
+			  	while ($final=mysqli_fetch_assoc($main)) {
+			  		echo "
+			  		 <tr>
+			      <th scope='row' style='color:#00539C;'>".$final['Name']."</th>
+			      <th scope='row' style='color:#00539C;'>".$final['Mobile']."</th>
+			      <th scope='row' style='color:#00539C;'>".$final['Person']."</th>
+			      <th scope='row' style='color:#00539C;'>".$final['Date']."</th>
+			      <th scope='row' style='color:#00539C;'>".$final['CheckBox']."</th>
+			      <th scope='row' style='color:#00539C;'>".$final['Address']."</th>
+			    </tr>
+			    ";
+			  	}
+
+
+			  	?>
+	    
+			  </tbody>
+			</table>
+  </div>
+</div>
+
+<div class="collapse" id="medicinedonate">
+  <div class="card card-body">
+  	<h3 style="color:black;text-align:center;text-shadow: 1px 2px 3px ">MediCine Donate List</h3>
+   	<table class="table">
+			  <thead>
+			    <tr>
+			      <th scope="col" style="color:#00539C;">Name</th>
+			      <th scope="col" style="color:#00539C;">Mobile No.</th>
+			      <th scope="col" style="color:#00539C;">Person</th>
+			      <th scope="col"  style="color:#00539C;">Date</th>
+			      <th scope="col" style="color:#00539C;">Medicine</th>
+			      <th scope="col" style="color:#00539C;">Address</th>
+			    </tr>
+			  </thead>
+			  <tbody>
+
+			  	<?php
+
+			  	while ($result=mysqli_fetch_assoc($data)) {
+			  		echo "
+			  		 <tr>
+			      <th scope='row' style='color:#00539C;'>".$result['Name']."</th>
+			      <th scope='row' style='color:#00539C;'>".$result['Mobile']."</th>
+			      <th scope='row' style='color:#00539C;'>  ".$result['Person']."</th>
+			      <th scope='row' style='color:#00539C;'>".$result['Date']."</th>
+			      <th scope='row' style='color:#00539C;'>".$result['CheckBox']."</th>
+			      <th scope='row' style='color:#00539C;'>".$result['Address']."</th>
+			    </tr>
+			    ";
+			  	}
+
+
+			  	?>
+			  </tbody>
+			</table>
+  </div>
+</div>
+
 </body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
 </html>
